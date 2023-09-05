@@ -12,8 +12,8 @@ public class Conexao {
 			
 			String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";	//passando endereço do servidor
 			
-			final String USER = "";
-			final String PASS = "";
+			final String USER = "rm550489";
+			final String PASS = "140704";
 			
 			con = DriverManager.getConnection(url, USER, PASS);		//ABRE CONEXÃO USANDO URL, USER E PASS
 			System.out.println("Conexao aberta!");
